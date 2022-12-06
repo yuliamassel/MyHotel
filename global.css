@@ -172,7 +172,6 @@ body::-webkit-scrollbar {
 .btn-nav1 {
     outline: none;
     border: none;
-    color: #0d253c;
     background-color: #ffffff;
     font-weight: 600;
     width: 148px;
@@ -182,25 +181,34 @@ body::-webkit-scrollbar {
     text-decoration: none;
   }
 
+  .btn-nav1 a{
+    color: #0d253c!important;
+    text-decoration: none!important;
+  }
+
   .btn-nav2 {
     outline: none;
     border: none;
-    color: #ffffff;
     background: #376aed;
     font-weight: 600;
     width: 148px;
     height: 51px;
     border-radius: 4px;
   }
+
+  .btn-nav2 a{
+    color: #ffffff!important;
+    text-decoration: none;
+  }
   
   .btn-nav2:hover {
-    color: #0d253c;
-    background-color: #ffffff;
+    color: #0d253c!important;
+    background-color: #ffffff!important;
   }
   
   .btn-nav1:hover {
-    background: #376aed;
-    color: #ffffff;
+    background: #376aed!important;
+    color: #ffffff!important;
   }
 
   .btn-navtop {
